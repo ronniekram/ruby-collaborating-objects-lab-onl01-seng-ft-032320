@@ -42,7 +42,7 @@ class Artist
   end
   
   def print_songs
-    self.all.collect {|song| song.name}
+    songs.collect {|song| song.name}
   end 
   
 end 
