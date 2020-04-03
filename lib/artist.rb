@@ -19,7 +19,7 @@ class Artist
   end 
   
   def add_song(song)
-    Songs.all << song
+    song.artist = self
   end 
   
   def self.find_or_create_by_name(name)
